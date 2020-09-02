@@ -1,0 +1,32 @@
+.feed {
+    padding: 70px 0 71px 0;
+    &__item {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin:71px 0 32px 0 ; 
+        }
+    &__img {
+        min-width: 169px;
+        height: 169px;
+        margin-right: 62px;
+    }
+    &__subheader {
+        font-size: 18px;
+        line-height: 1.8;
+        font-weight: 700;
+        color: #0d0d0d;
+    }
+    &__count {
+        font-size: 14px;
+        line-height: 2;
+        font-weight: 300;
+        color: #646464;
+    }
+    &__descr {
+        font-size: 16px;
+        line-height: 1.4;
+        font-weight: 400;
+        color: #0d0d0d;
+    }
+}
